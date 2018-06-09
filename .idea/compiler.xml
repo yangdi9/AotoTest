@@ -6,11 +6,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="DemoOne" />
+        <module name="Demo1" />
+        <module name="Demo2" />
+        <module name="DemoTwo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="AotoTest" target="1.8" />
+      <module name="Demo" target="1.8" />
+      <module name="Demo1" target="1.8" />
+      <module name="Demo2" target="1.8" />
       <module name="DemoOne" target="1.8" />
+      <module name="DemoTwo" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
